@@ -1,5 +1,5 @@
 # Portafolio
 
 ## Brief del sitio
+> ¿Quiénes somos?
 
-###### ¿Quiénes somos?
