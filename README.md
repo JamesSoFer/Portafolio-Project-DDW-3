@@ -1,6 +1,6 @@
 # Portafolio
 
-## Brief del sitio
+## Brief del sitio:
 
 **¿Cúal es la idea del Proyecto?**
 
@@ -12,10 +12,10 @@
 
 **Referencias:**
 
-> https://agence-belle-epoque.fr/en/
-> https://www.dejan.works/
-> https://benadam.me/
-> https://sebkay.com/
+- https://agence-belle-epoque.fr/en/
+- https://www.dejan.works/
+- https://benadam.me/
+- https://sebkay.com/
 
 **Wireframes:**
 
