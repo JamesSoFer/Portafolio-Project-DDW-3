@@ -1,0 +1,178 @@
+// Projects main styles
+
+.project--content {
+
+  float: left;
+  height: 710px ;
+  width: 1368px ;
+}
+
+.project-principal-content {
+
+  float: left;
+
+  h2 {
+
+    color: $beige ;
+    font-size: 36px ;
+    font-weight: normal ;
+    margin-left: 108px ;
+    margin-top: 100px ;
+  }
+
+  p {
+
+    color: $beige ;
+    font-size: 18px ;
+    font-weight: lighter ;
+    padding-top: 20px ;
+    padding-bottom: 30px ;
+    margin-left: 108px ;
+    width: 1180px ;
+  }
+
+  img {
+
+    border-radius: 12px ;
+    height: 321px ;
+    margin-left: 245px ;
+  }
+}
+
+.scrolldown-advise {
+
+  width: 1368px ;
+  float: left;
+}
+
+.project-principal-01 {
+
+  float: left;
+  height: 800px ;
+  width: 1368px ;
+
+  img {
+
+    border-radius: 12px ;
+    float: left ;
+    margin-left: 108px ;
+    margin-top: 160px ;
+    width: 450px ;
+  }
+
+  h2 {
+
+    color: $beige ;
+    font-size: 36px ;
+    float: left;
+    margin-top: 160px ;
+    margin-left: 40px ;
+  }
+
+  p {
+
+    color: $beige ;
+    font-weight: lighter ;
+    padding-top: 230px ;
+    margin-left: 600px ;
+    width: 685px ;
+  }
+
+  button {
+
+    background-color: $darkcyan ;
+    border-radius: 34px ;
+    border-style: none ;
+    color: white;
+    padding: 12px 34px ;
+    text-transform: uppercase ;
+    font-weight: bold ;
+    margin-left: 40px ;
+    margin-top: 25px ;
+  }
+}
+
+.column-project {
+
+  float: left;
+  width: 1368px ;
+  height: 1234px ;
+}
+
+.columns{
+
+  margin-bottom: 566px ;
+}
+
+.first-column-projects {
+
+  float: left;
+  width: 595px ;
+  height: 1234px ;
+
+  h2 {
+
+    color: $beige ;
+    font-size: 36px ;
+    float: right;
+    margin-right: 40px ;
+    margin-bottom: 40px ;
+  }
+
+  p {
+
+    color: $beige ;
+    text-align: right ;
+    float: right ;
+    font-weight: lighter ;
+    margin-right: 40px ;
+    margin-bottom: 40px ;
+    width: 500px;
+  }
+
+  button {
+
+    background-color: $darkcyan ;
+    border-radius: 34px ;
+    border-style: none ;
+    color: white;
+    padding: 12px 34px ;
+    text-transform: uppercase ;
+    font-weight: bold ;
+    float: right ;
+    margin-right: 40px ;
+    margin-top: 25px ;
+  }
+}
+
+.second-column-projects {
+
+  float: left;
+  background-color: $lightred ;
+  width: 773px ;
+  height: 1234px ;
+
+  img {
+
+    border-radius: 12px ;
+    margin-top: 25px ;
+    margin-bottom: 175px ;
+    margin-left: 40px ;
+    width: 500px ;
+  }
+}
+
+.know_more-link{
+
+  float: left;
+  height: 200px ;
+  padding-top: 100px ;
+
+  a {
+
+    color: white ;
+    font-size: 18px ;
+    margin-left: 500px ;
+  }
+}
+

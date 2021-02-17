@@ -1,4 +1,25 @@
 // styles
 
 // Partials Main
-@import "Partials-main/helpers";
+@import "Partials-main/helpers" ;
+
+// Variables
+@import "configuration/variables" ;
+
+
+// Partials
+
+// Global styles
+@import "Partials-main/global" ;
+
+// Website general styles
+
+// Header, Footer styles
+@import "Partials-main/header" ;
+@import "Partials-main/footer" ;
+
+// Main index styles
+@import "Partials-main/main-index" ;
+@import "Partials-main/main-aboutme" ;
+@import "Partials-main/main-contact" ;
+@import "Partials-main/main-proyects" ;

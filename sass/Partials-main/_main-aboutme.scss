@@ -1,0 +1,76 @@
+// about styles
+
+.aboutme-columns {
+
+  float: left ;
+  height: 1367px ;
+}
+
+.aboutme-column {
+
+  float: left ;
+  height: 700px ;
+
+  h2 {
+
+    color: $beige ;
+    font-size: 36px ;
+    font-weight: bold ;
+    text-transform: uppercase ;
+    margin-left: 110px ;
+    margin-top: 164px ;
+  }
+
+  img{
+
+    border-radius: 12px ;
+    width: 412px ;
+    margin-left: 110px ;
+  }
+
+  p {
+
+    border-left: 2px solid white;
+    color: $beige ;
+    float: right;
+    text-align: right ;
+    margin-left: 20px;
+    margin-left: 47px ;
+    margin-top: 0px ;
+    width: 700px ;
+
+    b {
+
+      color: $darkcyan ;
+    }
+  }
+}
+
+.aboutme-second-column {
+
+  float: left ;
+  height: 616px ;
+
+
+  img{
+
+    border-radius: 12px ;
+    float: right ;
+    width: 412px ;
+  }
+
+  p {
+
+    border-right: 2px solid white;
+    color: $beige ;
+    float: left ;
+    margin-left: 110px ;
+    margin-right: 47px ;
+    width: 700px ;
+
+    b {
+
+      color: $darkcyan ;
+    }
+  }
+}
