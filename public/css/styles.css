@@ -70,9 +70,9 @@ li {
   padding-top: 60px;
   margin-left: 108px;
   float: left; }
-  .images-socialmedia img {
+  .images-socialmedia a img {
     height: 42px; }
-  .images-socialmedia img + img {
+  .images-socialmedia a + a {
     margin-left: 20px; }
 
 .form-footer {
@@ -111,9 +111,12 @@ li {
   padding: 12px 40px;
   margin-top: 115px; }
 
+.button-form:hover {
+  background-color: black; }
+
 .information_about_me-box {
   float: left;
-  height: 635px;
+  height: 535px;
   margin-left: 110px;
   margin-right: 110px;
   margin-top: 100px;
@@ -122,6 +125,9 @@ li {
     border-radius: 12px;
     height: 495px;
     float: left;
+    -moz-box-shadow: 0px 0px 20px black;
+    -webkit-box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 6px 20px black;
     width: 424px; }
   .information_about_me-box h2 {
     color: #F3FAEF;
@@ -144,7 +150,7 @@ li {
 
 .scrolldown-advise {
   width: 1368px;
-  height: 74x p;
+  height: 74px;
   float: left;
   margin: 0 auto;
   text-align: center; }
@@ -194,26 +200,34 @@ li {
     font-weight: lighter;
     margin-left: 87px;
     width: 544px; }
-  .favorite-first-column img {
+  .favorite-first-column a img {
     border-radius: 12px;
     float: left;
     margin-left: 87px;
-    margin-top: 25px;
+    margin-top: 79px;
     width: 230px;
     height: 244px; }
+  .favorite-first-column a img:hover {
+    -moz-box-shadow: 0px 0px 20px black;
+    -webkit-box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 6px 20px black; }
 
 .favorite-second-column {
   float: left;
   background-color: #D5484C;
   width: 683px;
   height: 602px; }
-  .favorite-second-column img {
+  .favorite-second-column a img {
     border-radius: 12px;
     float: left;
     margin-left: 50px;
     margin-top: 268px;
     width: 230px;
     height: 244px; }
+  .favorite-second-column a img:hover {
+    -moz-box-shadow: 0px 0px 20px black;
+    -webkit-box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 6px 20px black; }
 
 .space {
   background-color: white;
@@ -254,10 +268,14 @@ li {
   height: 798px;
   width: 780px; }
   .relevant-project-box-02 img {
-    border-radius: 24px;
-    margin-left: 100px;
+    border: 0px;
+    border-radius: 64px;
+    -moz-box-shadow: 0px 6px 2px #e6e6e6;
+    -webkit-box-shadow: 0px 6px 2px white;
+    box-shadow: 0px 6px 2px #d6d6d6;
+    margin-left: 150px;
     margin-top: 170px;
-    width: 500px; }
+    width: 450px; }
 
 .aboutme-columns {
   float: left;
@@ -278,10 +296,9 @@ li {
     width: 412px;
     margin-left: 110px; }
   .aboutme-column p {
-    border-left: 2px solid white;
     color: #F3FAEF;
     float: right;
-    text-align: right;
+    text-align: left;
     margin-left: 20px;
     margin-left: 47px;
     margin-top: 0px;
@@ -297,7 +314,6 @@ li {
     float: right;
     width: 412px; }
   .aboutme-second-column p {
-    border-right: 2px solid white;
     color: #F3FAEF;
     float: left;
     margin-left: 110px;
@@ -370,8 +386,8 @@ li {
     width: 1180px; }
   .project-principal-content img {
     border-radius: 12px;
-    height: 321px;
-    margin-left: 245px; }
+    width: 900px;
+    margin-left: 220px; }
 
 .scrolldown-advise {
   width: 1368px;

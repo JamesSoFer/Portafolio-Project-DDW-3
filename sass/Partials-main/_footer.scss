@@ -27,12 +27,12 @@
   margin-left: 108px ;
   float: left;
 
-  img {
+  a img {
 
     height: 42px ;
   }
 
-  img + img {
+  a + a {
 
     margin-left: 20px ;
   }
@@ -87,4 +87,9 @@
   font-weight: bold;
   padding: 12px 40px;
   margin-top: 115px;
+}
+
+.button-form:hover{
+
+  background-color: rgb(0, 0, 0);
 }
