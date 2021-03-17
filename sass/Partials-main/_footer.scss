@@ -2,7 +2,7 @@
 
   float: left;
   width: 1368px ;
-  height: 324px ;
+  height: 400px ;
   background-color: $darkcyan ;
 }
 
@@ -15,7 +15,7 @@
   p {
 
     color: $beige ;
-    font-size: 16px ;
+    font-size: 1rem;
     margin-left: 108px ;
     width: 200px ;
   }
@@ -23,7 +23,7 @@
 
 .images-socialmedia {
 
-  padding-top: 60px ;
+  padding-top: 29px ;
   margin-left: 108px ;
   float: left;
 
@@ -47,7 +47,7 @@
   p {
 
     color: $beige ;
-    font-size: 16px ;
+    font-size: 1rem;
   }
 }
 
@@ -68,7 +68,7 @@
     border-radius: 18px ;
     color: rgb(161, 161, 161);
     float: left;
-    font-size: 16px ;
+    font-size: 1rem;
     height: 30px;
     text-indent: 20px ;
     margin-bottom: 20px ;
@@ -83,10 +83,10 @@
   border-style: none;
   background-color: $darkblue ;
   position: relative;
-  font-size: 14px ;
+  font-size: 0,875rem ;
   font-weight: bold;
   padding: 12px 40px;
-  margin-top: 115px;
+  margin-top: 10px;
 }
 
 .button-form:hover{

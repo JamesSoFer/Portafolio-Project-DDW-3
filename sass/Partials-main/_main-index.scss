@@ -23,7 +23,7 @@
   h2 {
 
     color: $beige;
-    font-size: 36px ;
+    font-size: 2rem ;
     font-weight: normal ;
     float: left ;
     margin-left: 59px ;
@@ -36,7 +36,7 @@
 
     float: left ;
     color: $beige ;
-    font-size: 18px ;
+    font-size: 1rem ;
     font-weight: lighter ;
     margin-left: 59px ;
     width: 667px ;
@@ -60,7 +60,7 @@
   p {
 
     color: $beige ;
-    font-size: 18px ;
+    font-size: 1rem ;
     font-weight: lighter ;
   }
 }
@@ -75,7 +75,7 @@
 
   h2 {
 
-    font-size: 36px ;
+    font-size: 2rem ;
     font-weight: bold ;
     text-transform: uppercase ;
     margin-top: 153px ;
@@ -108,18 +108,19 @@
 
     color: $beige ;
     float: left;
-    font-size: 36px ;
+    font-size: 3rem ;
     font-weight: normal ;
     margin-left: 87px ;
-    margin-top: 50px;
+    padding-top: 50px;
   }
 
   p {
 
     color: $beige ;
     float: left;
-    font-size: 18px ;
+    font-size: 1rem ;
     font-weight: lighter ;
+    padding: 0px;
     margin-left: 87px ;
     width: 544px ;
   }
@@ -129,7 +130,7 @@
     border-radius: 12px ;
     float: left ;
     margin-left: 87px ;
-    margin-top: 79px;
+    margin-top: 49px;
     width: 230px ;
     height: 244px ;
   }
@@ -153,7 +154,7 @@
     border-radius: 12px ;
     float: left ;
     margin-left: 50px ;
-    margin-top: 268px ;
+    margin-top: 316px ;
     width: 230px ;
     height: 244px ;
   }
@@ -170,7 +171,7 @@
   background-color: white ;
   float: left;
   width: 1368px ;
-  height: 252px ;
+  height: 200px ;
 }
 
 .relevant-project-seccion {
@@ -190,8 +191,9 @@
   h2 {
 
     float: left ;
-    font-size: 36px ;
+    font-size: 2rem ;
     font-weight: bold ;
+    padding-top: 60px;
     margin-left: 106px ;
   }
 
@@ -200,7 +202,7 @@
     float: left;
     font-weight: lighter ;
     margin-left: 106px ;
-    margin-top: 86px ;
+    margin-top: 18px ;
     width: 400px ;
   }
 
@@ -209,7 +211,7 @@
     color: $darkblue ;
     float: left;
     margin-left: 106px ;
-    margin-top: 60px ;
+    margin-top: 10px ;
   }
 }
 
@@ -228,7 +230,7 @@
     -webkit-box-shadow: 0px 6px 2px rgb(255, 255, 255);
     box-shadow: 0px 6px 2px rgb(214, 214, 214);
     margin-left: 150px ;
-    margin-top: 170px ;
+    margin-top: 172px ;
     width: 450px ;
   }
 }

@@ -1,25 +1,28 @@
 // styles
 
 // Partials Main
-@import "Partials-main/helpers" ;
+@import "partials-main/helpers" ;
 
 // Variables
 @import "configuration/variables" ;
 
+// Normalize
+@import "library/normalize" ;
 
 // Partials
 
 // Global styles
-@import "Partials-main/global" ;
+@import "partials-main/global" ;
 
 // Website general styles
 
 // Header, Footer styles
-@import "Partials-main/header" ;
-@import "Partials-main/footer" ;
+@import "partials-main/header" ;
+@import "partials-main/footer" ;
 
 // Main index styles
-@import "Partials-main/main-index" ;
-@import "Partials-main/main-aboutme" ;
-@import "Partials-main/main-contact" ;
-@import "Partials-main/main-proyects" ;
+@import "partials-main/main-index" ;
+@import "partials-main/main-aboutme" ;
+@import "partials-main/main-contact" ;
+@import "partials-main/main-proyects" ;
+@import "partials-main/main-github" ;
